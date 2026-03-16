@@ -1,16 +1,37 @@
-# React + Vite
+# e-Ticaret Sitesi Demosu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React ve JavaScript kullanılarak geliştirilmiş, veritabanı ihtiyacı duymadan tüm verileri tarayıcı üzerinde yöneten modern bir e-ticaret arayüzü demosudur. Proje, özellikle **Client-Side Persistence** (İstemci Taraflı Kalıcılık) konseptine odaklanılarak geliştirilmiştir.
 
-Currently, two official plugins are available:
+## Canlı Demo
+Uygulamayı buradan inceleyebilirsiniz: [eticaretsitesidemo.netlify.app](https://eticaretsitesidemo.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Teknik Yığın (Tech Stack)
 
-## React Compiler
+- **React.js & JavaScript:** Güçlü tip kontrolü ve modüler bileşen yapısı.
+- **LocalStorage API:** Ürün verileri, sepet bilgileri ve kullanıcı tercihlerinin tarayıcı hafızasında saklanması.
+- **Context API:** Uygulama içi merkezi veri yönetimi.
+- **Netlify:** Continuous Deployment (cd) ile canlıya alma süreci.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Öne Çıkan Özellikler
 
-## Expanding the ESLint configuration
+- **Offline Veri Yönetimi:** Backend bağlantısına ihtiyaç duymadan ürünleri listeler ve sepet işlemlerini gerçekleştirir.
+- **Kalıcı Sepet Deneyimi:** Kullanıcı sayfayı yenilese bile `localStorage` entegrasyonu sayesinde sepetindeki ürünler kaybolmaz.
+- **Responsive Tasarım:** Mobil, tablet ve masaüstü cihazlar için tam uyumluluk.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Kurulum ve Çalıştırma
+
+1. **Repoyu klonlayın:**
+   ```bash
+   git clone [https://github.com/asmss/eTicaretSitesiDemo.git](https://github.com/asmss/eTicaretSitesiDemo.git)
+2. **Proje dizinine gidin:**
+
+   ```Bash
+    cd eTicaretSitesiDemo
+3. **Bağımlılıkları yükleyin:**
+
+    ```Bash
+      npm install
+4. **Uygulamayı başlatın:**
+
+   ```Bash
+      npm start     
